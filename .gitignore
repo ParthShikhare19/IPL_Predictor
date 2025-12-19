@@ -24,6 +24,7 @@ dist-ssr
 *.sw?
 *.git
 
-# # Large CSV data files
-# backend/Data/Raw/*.csv
-# backend/Data/Cleaned/*.csv
+# Large CSV data files - exclude entire Data directory
+backend/Data/
+backend/Data/Raw/
+backend/Data/Cleaned/
